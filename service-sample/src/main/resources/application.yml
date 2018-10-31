@@ -1,0 +1,15 @@
+# 需要指明spring.application.name
+# 服务与服务之间相互调用一般都是根据这个name
+spring:
+  application:
+    name: service-sample
+
+server:
+  port: 8081
+
+# 仅仅靠@EnableEurekaClient是不够的
+# 还需要在配置文件中注明自己的服务注册中心的地址
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/

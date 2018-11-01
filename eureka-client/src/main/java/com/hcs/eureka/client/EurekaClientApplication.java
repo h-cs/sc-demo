@@ -1,4 +1,4 @@
-package com.hcs.service.sample;
+package com.hcs.eureka.client;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.SpringApplication;
@@ -11,10 +11,10 @@ import org.springframework.web.bind.annotation.RestController;
 @SpringBootApplication
 @EnableEurekaClient
 @RestController
-public class ServiceSampleApplication {
+public class EurekaClientApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(ServiceSampleApplication.class, args);
+        SpringApplication.run(EurekaClientApplication.class, args);
     }
 
     @Value("${server.port}")

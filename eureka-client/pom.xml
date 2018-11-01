@@ -4,12 +4,12 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.hcs</groupId>
-    <artifactId>service-sample</artifactId>
+    <artifactId>eureka-client</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <packaging>jar</packaging>
 
-    <name>service-sample</name>
-    <description>sample service for eureka client test</description>
+    <name>eureka-client</name>
+    <description>eureka client test</description>
 
     <parent>
         <groupId>com.hcs</groupId>

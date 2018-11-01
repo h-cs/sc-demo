@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RequestParam;
  * @author: hcs
  * @date: 2018/10/31 23:22
  */
-@FeignClient(value = "service-sample", fallback = HelloServiceHystric.class)
+@FeignClient(value = "eureka-client", fallback = HelloServiceHystric.class)
 public interface HelloService {
 
     @RequestMapping(value = "/hi", method = RequestMethod.GET)

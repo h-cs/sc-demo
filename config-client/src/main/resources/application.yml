@@ -9,11 +9,27 @@ spring:
         enabled: true
         service-id: config-server
 #      uri: http://localhost:8888/
+    bus:
+      enabled: true
+      trace:
+        enabled: true
+
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: bus-refresh
 
 server:
   port: 8881
 
 eureka:
   client:
-    serviceUrl:
+    service-url:
       defaultZone: http://localhost:8761/eureka/

@@ -3,19 +3,17 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.hcs</groupId>
-    <artifactId>service-feign</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
-    <packaging>jar</packaging>
-
-    <name>service-feign</name>
-    <description>feign test</description>
-
     <parent>
         <groupId>com.hcs</groupId>
         <artifactId>sc-demo</artifactId>
         <version>1.0-SNAPSHOT</version>
     </parent>
+
+    <artifactId>service-feign</artifactId>
+    <name>service-feign</name>
+    <version>0.0.1-SNAPSHOT</version>
+    <description>feign test</description>
+    <packaging>jar</packaging>
 
     <dependencies>
         <dependency>

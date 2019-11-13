@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 
 /**
- * @description:
+ * @description: 使用@FeignClient("服务名")注解，来指定调用哪个服务
  * @author: hcs
  * @date: 2018/10/31 23:22
  */
